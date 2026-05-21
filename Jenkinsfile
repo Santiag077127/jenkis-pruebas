@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build and Test') {
             steps {
-                sh './mvnw clean verify'
+                sh 'mvn clean verify'
             }
         }
     }
