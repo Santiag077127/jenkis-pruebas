@@ -10,3 +10,4 @@ public class PracticaJenkinsApplication {
 		SpringApplication.run(PracticaJenkinsApplication.class, args);
 	}
 
+}
